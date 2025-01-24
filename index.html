@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Loica - Portafolio</title>
+    <style>
+        /* General */
+        body {
+            background-color: #008080; /* Color clásico de fondo */
+            font-family: "Tahoma", sans-serif;
+            color: black;
+            margin: 0;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        /* Ventana retro */
+        .window {
+            background-color: #C0C0C0; /* Gris clásico */
+            border: 2px solid black;
+            box-shadow: 3px 3px 0px #000000; /* Sombra para efecto 3D */
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        .title-bar {
+            background-color: #000080; /* Azul clásico */
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title-bar button {
+            background-color: #C0C0C0;
+            border: 1px solid black;
+            width: 16px;
+            height: 16px;
+            text-align: center;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .content {
+            margin-top: 10px;
+            background-color: white;
+            border: 2px inset #C0C0C0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Botones */
+        .button {
+            background-color: #C0C0C0;
+            border: 2px outset white;
+            color: black;
+            padding: 5px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button:active {
+            border: 2px inset black; /* Efecto de presionar */
+        }
+
+        /* Enlaces */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <span>La Loica - Portafolio</span>
+            <button>X</button>
+        </div>
+        <div class="content">
+            <h1>¡Bienvenidx a La Loica!</h1>
+            <p>Un espacio dedicado al arte textil y la creación manual.</p>
+            <div>
+                <button class="button"><a href="#proyectos">Proyectos</a></button>
+                <button class="button"><a href="#contacto">Contacto</a></button>
+                <button class="button"><a href="#sobre-mi">Sobre mí</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
