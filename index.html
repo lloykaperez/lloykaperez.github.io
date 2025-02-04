@@ -1,100 +1,387 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Loica - Portafolio</title>
-    <style>
-        /* General */
-        body {
-            background-color: #008080; /* Color base */
-            background-image: url('https://www.transparenttextures.com/patterns/crossword.png'); /* Patrón estilo punto cruz */
-            font-family: "Tahoma", sans-serif;
-            color: black;
-            margin: 0;
-            padding: 20px;
-            font-size: 14px;
-        }
-
-        /* Ventana retro */
-        .window {
-            background-color: #C0C0C0; /* Gris clásico */
-            border: 2px solid black;
-            box-shadow: 3px 3px 0px #000000; /* Sombra para efecto 3D */
-            width: 400px;
-            padding: 10px;
-            margin: auto;
-        }
-
-        .title-bar {
-            background-color: #000080; /* Azul clásico */
-            color: white;
-            padding: 5px;
-            font-weight: bold;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .title-bar button {
-            background-color: #C0C0C0;
-            border: 1px solid black;
-            width: 16px;
-            height: 16px;
-            text-align: center;
-            padding: 0;
-            cursor: pointer;
-        }
-
-        .content {
-            margin-top: 10px;
-            background-color: white;
-            border: 2px inset #C0C0C0;
-            padding: 10px;
-            text-align: center;
-        }
-
-        /* Botones */
-        .button {
-            background-color: #C0C0C0;
-            border: 2px outset white;
-            color: black;
-            padding: 5px 10px;
-            font-size: 14px;
-            cursor: pointer;
-            margin: 5px;
-        }
-
-        .button:active {
-            border: 2px inset black; /* Efecto de presionar */
-        }
-
-        /* Enlaces */
-        a {
-            color: black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CV Lloyka Pérez</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="window">
-        <div class="title-bar">
-            <span>La Loica - Portafolio</span>
-            <button>X</button>
-        </div>
-        <div class="content">
-            <h1>¡Bienvenidx a La Loica!</h1>
-            <p>Un espacio dedicado al arte textil y la creación manual.</p>
-            <div>
-                <button class="button"><a href="#proyectos">Proyectos</a></button>
-                <button class="button"><a href="#contacto">Contacto</a></button>
-                <button class="button"><a href="#sobre-mi">Sobre mí</a></button>
-            </div>
-        </div>
+  <header>
+    <div class="encabezadoAvatar">
+      <img src="assets/avatar.png" class="avatar">
     </div>
+    <div>
+        <h1>Lloyka Pérez</h1>
+        <h2>Artista Visual | Diseñadora Textil | Investigadora en Autogestión Cultural</h2>
+    </div>
+    
+  </header>
+  <div class="container">
+    <section class="informacionGeneral">
+      <div class="contacto">
+        <h3>Información General</h3>
+        <ul>
+          <li>Lloyka Pérez Harambour</li>
+          <li>laloica@anartist.org</li>
+          <li>+56 9 9222 4757</li>
+          <li>Concepción, Chile.</li>
+        </ul>
+        <h4>Porfolios y Redes</h4>
+        <ul>
+          <li><a href="http://lloyka.me/" target="_blank">Sitio Web</a></li>
+          <li><a href="https://github.com/lloykaperez" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/lloykaperez/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.behance.net/lloykaperez" target="_blank">Behance</a></li>
+        </ul>
+      </div>
+      <div class="habilidades">
+        <h3>Habilidades técnicas y tecnologías</h3>
+        <h4 class="tituloSkills">Lenguajes de Programación y Frameworks</h4>
+        <div class="lenguajes">
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosSkills/icons8-html-5-100.png"></li>
+              <li class="skillsName">HTML5</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosSkills/icons8-css3.svg"></li>
+              <li class="skillsName">CSS3</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosSkills/icons8-logotipo-de-javascript.svg"></li>
+              <li class="skillsName">JavasScript</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono"
+                  src="assets/iconosSkills/icons8-rubi-lenguaje-de-programacion.svg"></li>
+              <li class="skillsName">Ruby on Rails</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="tituloSkills">Software y Herramientas</h4>
+        <div class="herramientas">
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosProgramas/icons8-adobe-illustrator.svg"></li>
+              <li class="skillsName">Illustrator</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosProgramas/icons8-procreate.svg"></li>
+              <li class="skillsName">Procreate</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosProgramas/icons8-visual-studio-code-2019.svg">
+              </li>
+              <li class="skillsName">Visual Studio Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="intereses">
+        <h3>Intereses</h3>
+        <div class="hobbies">
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosHobbies/icons8-camara-slr-100.png"></li>
+              <li class="skillsName">Fotografía</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosHobbies/icons8-drawing-100.png"></li>
+              <li class="skillsName">Ilustración</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono" src="assets/iconosHobbies/icons8-embroidery-100.png"></li>
+              <li class="skillsName">Bordado</li>
+            </ul>
+          </div>
+          <div class="skillsBox">
+            <ul class="ulSkills">
+              <li class="skillsImg"><img class="icono"
+                  src="assets/iconosHobbies/icons8-mujer-en-la-computadora-100.png"></li>
+              <li class="skillsName">Geek</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="antecedentes">
+      <div class="experiencia">
+        <h3>Experiencia Laboral</h3>
+        <p>Empecé mi trayectoria profesional como Gestora Cultural hace más de 14 años. La llegada de la pandemia me
+          llevó a volcar mi trabajo al mundo virtual. Durante estos últimos 2 años he trabajado como productora técnica
+          de proyectos culturales que tuvieron que adaptarse a diversas plataformas y aplicaciones web.</p>
+        <h5>ACTUALMENTE ESTUDIO Y BUSCO AMPLIAR MI CAMPO LABORAL EN EL MUNDO DEL DESARROLLO WEB.</h5>
+
+    <!-- Experiencia 1: La Loica -->
+    <details>
+        <summary>La Loica</summary>
+        <div>
+            <p>Solopreneur, Diciembre 2013 - Presente (11 años 2 meses), Concepción, Bío-Bío, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Creadora y diseñadora en taller textil "La Loica".</li>
+                    <li>Ganadora del Capital Semilla Abeja de SERCOTEC 2015, Punta Arenas.</li>
+                    <li>Ganadora de capital de emergencia de emprendimiento de la Municipalidad de Concepción 2020.</li>
+                    <li>Ganadora de fondo para emprendimientos Prodemu Concepción 2020.</li>
+                    <li>Ganadora de Fondo Impulsa de CDI Chile Concepción 2021.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 2: Goethe-Institut São Paulo -->
+    <details>
+        <summary>Goethe-Institut São Paulo</summary>
+        <div>
+            <p>Productor Técnico, Diciembre 2021 - Diciembre 2021 (1 mes), Concepción, Bio Bio, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Producción técnica del ciclo de charlas CTRL+ "Culturas, territorios y resistencias latinoamericanas".</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 3: Corporación Cultural Tramadas -->
+    <details>
+        <summary>Corporación Cultural Tramadas</summary>
+        <div>
+            <p>Asistente de Producción, Noviembre 2017 - Agosto 2021 (3 años 10 meses), Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Productora local para Tramadas, ganadora de la licitación de participación ciudadana para creación de plan de gestión para la Escuela Municipal de Arte “Casa Azul” en Punta Arenas.</li>
+                    <li>Asistente de producción en mapeos colectivos para la creación del Plan Municipal de Cultura de la Municipalidad de La Unión.</li>
+                    <li>Productora técnica en capacitaciones de “Gestión para el desarrollo cultural local” para la Seremi de las Culturas, las Artes y el Patrimonio de la Región de la Araucanía.</li>
+                    <li>Encargada de la creación y manejo de plataformas online para capacitación virtual y asistencia técnica.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 4: Inventiva Lab -->
+    <details>
+        <summary>Inventiva Lab</summary>
+        <div>
+            <p>Productor General, 2012 - 2021 (9 años), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Productora general del documental “Cazador de Nómades”, ganador del fondo Cultura y Difusión de las Culturas Indígenas de CONADI.</li>
+                    <li>Ejecutora de proyectos socio-culturales en programas de reinserción escolar y social.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 5: Parlamento Chile -->
+    <details>
+        <summary>Parlamento Chile</summary>
+        <div>
+            <p>Coordinadora Territorial, Marzo 2017 - Agosto 2018 (1 año 6 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Coordinadora en vinculación y desarrollo de estrategias con organizaciones y movilizaciones territoriales en el equipo parlamentario del Diputado Gabriel Boric Font.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 6: Cooperativa Kaudal -->
+    <details>
+        <summary>Cooperativa Kaudal</summary>
+        <div>
+            <p>Productor General, Marzo 2017 - Diciembre 2017 (10 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Gestora y socia fundadora de la cooperativa de trabajo “Kaudal”, ganadora del Fondo Juntos de SERCOTEC 2017.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 7: Fundación Plagio -->
+    <details>
+        <summary>Fundación Plagio</summary>
+        <div>
+            <p>Productora Local, Enero 2015 - Diciembre 2017 (3 años), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Productora local del concurso Magallanes en 100 Palabras de la Fundación Plagio.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 8: Feria La Porfía -->
+    <details>
+        <summary>Feria La Porfía</summary>
+        <div>
+            <p>Asistente de Producción, Septiembre 2014 - Diciembre 2017 (3 años 4 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Asistente de Producción del proyecto "La Porfía - Feria de Arte y Diseño de la Patagonia".</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 9: Ilustre Municipalidad de Punta Arenas -->
+    <details>
+        <summary>Ilustre Municipalidad de Punta Arenas</summary>
+        <div>
+            <p>Productora General, Enero 2014 - Febrero 2014 (2 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Producción general del proyecto “Acordes de Libertad”, ganador del fondo FNDR 2% Seguridad Ciudadana del Gobierno Regional de Magallanes.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 10: Corporación Municipal de Punta Arenas -->
+    <details>
+        <summary>Corporación Municipal de Punta Arenas</summary>
+        <div>
+            <p>Monitora Taller de Fotografía, Agosto 2013 - Diciembre 2013 (5 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Monitora de taller de fotografía de prensa en proyecto “Pequeños Corresponsales en Acción”.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 11: Asociación de Mujeres Empresarias de Magallanes AMEMAG -->
+    <details>
+        <summary>Asociación de Mujeres Empresarias de Magallanes AMEMAG</summary>
+        <div>
+            <p>Productor General, Agosto 2011 - Diciembre 2011 (5 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Productora General del proyecto “Mujeres Tejiendo Futuro”.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 12: Ratto Producciones -->
+    <details>
+        <summary>Ratto Producciones</summary>
+        <div>
+            <p>Fotógrafo, Octubre 2009 - Diciembre 2009 (3 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Fotografía y diseño en licitación de SERNATUR de “Registro audiovisual y fotográfico de puntos turísticos de Magallanes”.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 13: Diario La Prensa Austral -->
+    <details>
+        <summary>Diario La Prensa Austral</summary>
+        <div>
+            <p>Fotógrafo, Febrero 2009 - Agosto 2009 (7 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Fotógrafa de prensa en diario regional “La Prensa Austral”.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+    <!-- Experiencia 14: Patagónica Publicaciones S.A. - Diario El Pingüino -->
+    <details>
+        <summary>Patagónica Publicaciones S.A. - Diario El Pingüino</summary>
+        <div>
+            <p>Fotógrafo, Octubre 2008 - Febrero 2009 (5 meses), Punta Arenas, Magallanes y Antártica Chilena, Chile</p>
+            <h5 class="puntos-relevantes">
+                <ul>
+                    <li>Fotógrafa de prensa en diario regional “El Pingüino”.</li>
+                </ul>
+            </h5>
+        </div>
+    </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="formacion">
+        <h3>Formación</h3>
+        <div class="curso">
+          <h4>Web Development Fundamentals - Ada School</h4>
+          <p>Introducción a la programación Web.</p>
+          <h5>Curso en desarrollo.</h5>
+        </div>
+        <div class="curso">
+          <h4>MeT [Mujeres en Tecnología].</h4>
+          <p>MetCamp Web, Desarrollo Web con React.</p>
+          <h5>Curso de 30 horas.</h5>
+        </div>
+        <div class="curso">
+          <h4>Programa One de Oracle - Alura Latam.</h4>
+          <p>Principiante en Programación.</p>
+          <h5>Curso de 75 horas.</h5>
+          <p>Front End.</p>
+          <h5>Curso en desarrollo.</h5>
+        </div>
+        <div class="curso">
+          <h4>Diplomado Diseño y Programación Web. AIEP - Fundación Telefónica Movistar - SENCE.</h4>
+          <p>Diplomado con módulos en Wordpress, HTML5, CSS y JavaScript.</p>
+          <h5>Diplomado de 100 horas.</h5>
+        </div>
+        <div class="curso">
+          <h4>Programa Talento Digital para Chile - EDUTECNO</h4>
+          <p>Emprendimiento digital con Ruby on Rails.</p>
+          <h5>Bootcamp de 450 horas.</h5>
+        </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <h5>Desarrollado por <a class="linkFooter" href="http://lloyka.me/" target="_blank">Lloyka</a> durante el curso de
+      Fundamentos de programación web.</h5>
+    <h5>Dictado por <a class="linkFooter" href="https://ada-school.org/" target="_blank">Ada School</a> - 2022</h5>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
