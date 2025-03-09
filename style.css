@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-  background: #C5CAE9;
+  background: #F8EDAC;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    color: #ff6c9f;
+    color: #E18CB2;
 }
 
 .lenguajes {
@@ -69,7 +69,7 @@ a:hover {
 }
 
 .icono {
-  width: 2rem;
+  width: 3rem;
 }
 
 li.skillsImg {
@@ -87,26 +87,26 @@ li.skillsName {
   width: 65%;
 }
 h1 {
-  color: #FD5E9F;
+  color: #D54781;
   font-weight: bold;
 }
 
 h2 {
-  color: #0F40B4;
+  color: #4BA6C1;
 }
 
 h3 {
-  color: #FD5E9F;
+  color: #E18CB2;
   font-weight: bold;
 }
 
 h4 {
-  color: #0F40B4;
+  color: #4BA6C1;
 }
 
 footer {
-  background: #C5CAE9;
-  color: #0F40B4;
+  background: #F8EDAC;
+  color: #4BA6C1;
   text-align: center;
   margin: 0 auto;
   max-width: 990px;
@@ -115,7 +115,7 @@ footer {
 }
 
 a.linkFooter {
-  color: #FD5E9F;
+  color: #D54781;
 }
 
 p {
@@ -142,9 +142,9 @@ p {
 
 
 summary {
-  color: #0F40B4;
+  color: #4BA6C1;
 }
 
 summary:hover {
-    color: #ff6c9f;
+    color: #E18CB2;
 }
