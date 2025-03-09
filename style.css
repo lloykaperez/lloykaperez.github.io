@@ -56,16 +56,16 @@ a:hover {
 
 .lenguajes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .herramientas {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .hobbies {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .icono {
